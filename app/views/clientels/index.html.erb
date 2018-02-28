@@ -1,0 +1,6 @@
+<h1>Clients</h1>
+<% @clients.each do |client|%>
+  <h2><%= client.name %> </h2>
+  <%= link_to 'Show Clients', page_path(client)%> 
+<% end %> 
+
